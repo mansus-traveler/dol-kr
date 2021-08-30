@@ -4,7 +4,7 @@
     version="0.3.2.4" 
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:cdv="http://cordova.apache.org/ns/1.0"
-    android-packageName="com.vrelnir.DegreesOfLewdityKr"
+    android-packageName="com.vrelnir.DegreesOfLewdity"
 >
     <name short="DoL-KR">Degrees of Lewdity KR</name>
     <description>Degrees of Lewdity KR</description>
