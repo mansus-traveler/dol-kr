@@ -993,46 +993,46 @@
 
 <<if $phase is 1>>
 
-	You join <<him>> in picking up the paper. <<He>> thanks you, and within minutes you have them in one neat stack.
+	당신은 <<his_ 의>> 일을 거들어 함께 종이를 줍는다. <<He_ 가>> 당신에게 감사를 표하고, 몇 분 지나지 않아 당신들은 종이를 깔끔한 한 더미로 쌓는다.
 	<br><br>
 
 	<<if $rng gte 1>>
-		"Thanks for your help," <<he>> says. You start to leave, but <<he>> grabs onto you. "Wait a second, I have something for you." <<He>> takes a piece of paper and scribbles something on it before handing it back to you.
+		"도와줘서 고마워." <<he_ 가>> 말한다. 당신이 떠나려 하자, <<he_ 가>> 당신을 붙잡는다. "잠깐, 네게 줄 게 있어." <<He_ 가>> 종이를 한 장 집어들어 무언가 끄적인 뒤 당신에게 건넨다.
 		<br><br>
 
-		It reads: 'Coupon for 1 free orgasm. Expires in 2 minutes'. <<He>> rubs <<his>> thighs together, waiting for your answer.
+		종이에는 이렇게 쓰여 있다. '오르가즘 1회 무료 쿠폰. 만료기한: 2분'. <<He_ 는>> <<his_ 의>> 허벅지를 비비적거리며, 당신의 답을 기다린다.
 		<br><br>
 
 		<<if hasSexStat("promiscuity", 2)>>
 			<<link [[받아들인다|Home Orphan Poster Sex Choice]]>><<set $phase to 1>><</link>><<promiscuous2>>
 
 		<<else>>
-			<span class="blue">You're not promiscuous enough to take up such an offer.</span>
+			<span class="blue">당신은 그런 제안을 수락할 만큼 음란하지 않다.</span>
 		<</if>>
 		<br>
 
 		<<link [[거절한다|Home Orphan Poster Sex Choice]]>><<set $phase to 2>><</link>>
 
 	<<else>>
-		"Thanks for your help," <<he>> says.
+		"도와줘서 고마워." <<he_ 가>> 말한다.
 		<br><br>
 
 		<<if $speech_attitude is "meek">>
-			"It's n-no problem, I should have paid more attention. W-why do you have all that paper? I-If you don't mind me asking!"
+			"아-아니야, 내가 좀 더 조심했어야 했어. 그-그 종이는 다 어디에 쓰려고? 무-물어봐도 괜찮은 거라면 말이야!"
 
 		<<elseif $speech_attitude is "bratty">>
-			"Yeah, yeah, it's just paper. Why do you need so much anyways?"
+			"그래, 그래. 그냥 종이잖아. 그나저나 왜 그렇게 많이 들고 있는 거야?"
 
 		<<else>>
-			"No problem, accidents happen. I'm a bit curious, why do you need so much paper?"
+			"괜찮아, 그냥 사고인 걸. 조금 궁금해서 그런데, 그렇게 종이가 많이 필요한 데가 있어?"
 
 		<</if>>
 		<br><br>
 
-		<<He>> looks at the stack. "Not sure. Bailey asked me to get a bunch. Speaking of which, I better get going. Don't want to make <<nnpc_him "Bailey">> mad." <<He>> picks up the stack and heads towards Bailey's office.<<lreb>><<reb -1>>
+		<<He_ 가>> 종이 더미를 바라본다. "나도 잘 몰라. 베일리가 잔뜩 갖고 오라고 그랬거든. 그나저나, 이제 그만 가보는 게 좋겠어. <<nnpc_him_ "을" "Bailey">> 화나게 하고 싶진 않거든." <<He_ 는>> 종이 더미를 주워 들고 베일리의 사무실 방향으로 향한다.<<lreb>><<reb -1>>
 		<br><br>
 
-		You continue on.
+		당신은 가던 길을 간다.
 		<br><br>
 
 		<<link [[다음|Orphanage]]>><<endevent>><</link>>
@@ -1041,11 +1041,11 @@
 
 <<else>>
 	<<if $speech_attitude is "meek">>
-		You apologise to <<him>> too, both for running into <<him>> and for having to go. You depart.
+		당신도 <<him_ 에게>> <<him_ 과>> 부딪힌 것과 바로 가봐야 하는 것에 대해 사과한다. 당신은 떠난다.
 	<<elseif $speech_attitude is "bratty">>
-		You tell <<him>> to pay better attention and walk off.
+		당신은 <<him_ 에게>> 좀 더 주변을 살피라 말하고는 걸어간다.
 	<<else>>
-		You assure <<him>> that it was just an unfortunate accident. You make your excuses and leave.
+		당신은 <<him_ 에게>> 이게 단지 불운한 사고였을 뿐이라 확언한다. 당신은 양해를 구하고 떠난다.
 	<</if>>
 	<br><br>
 
@@ -1057,16 +1057,16 @@
 <<effects>>
 
 <<if $phase is 1>>
-	<<He>> nods enthusiastically and says, "My room isn't far from here." <<He>> leads you down the hall to a bedroom and tackles you onto the bed.
+	<<He_ 는>> 열정적으로 끄덕이고는 말한다. "여기서 머지 않은 곳에 내 방이 있어." <<He_ 는>> 당신을 복도에서 침실까지 안내하고는 당신을 침대에 쓰러트린다.
 	<br><br>
 
 	<<link [[다음|Home Orphan Poster Sex]]>><<set $sexstart to 1>><</link>>
 
 <<else>>
-	<<He>> laughs, awkwardly. "Y-yeah, well umm..." <<He>> fidgets, then slowly picks up the stack of papers. "I better go deliver these to Bailey. Umm... bye?" <<He>> speedwalks towards Bailey's office.
+	<<He_ 가>> 어색하게 웃는다. "그-그래, 어, 음..." <<He_ 가>> 꼼지락거리다, 종이 더미를 천천히 들어올린다. "베일리한테 이것들을 갖다 주러 가보는 게 좋겠다. 어... 잘 가?" <<He_ 는>> 빠르게 베일리의 사무실 쪽으로 걸어간다.
 	<br><br>
 
-	You continue on.
+	당신은 가던 길을 간다.
 	<br><br>
 
 	<<link [[다음|Orphanage]]>><<endevent>><</link>>
@@ -1100,11 +1100,11 @@
 <<effects>>
 
 <<if $enemyhealth lte 0>>
-	"Ow, what the fuck?! You fucki-" You escape while <<hes>> reeling from the pain.
+	"아야, 왜 그래?! 너 이 씨-" 당신은 <<he_ 가>> 고통에 주춤거리는 동안 도망친다.
 
 <<elseif $enemyarousal gte $enemyarousalmax>>
 	<<ejaculation>>
-	<<He>> flops on the bed, panting. "Wow, you're... really good." <<His>> eyes slowly widen. "Wait. Shit, I left Bailey's papers out there." <<He>> sighs, "Nah, <<nnpc_he "Bailey">> can get <<nnpc_his "Bailey">> own paper."
+	<<He_ 가>> 숨을 헐떡이며 침대에 털썩 주저앉는다. "와우, 너... 진짜 잘한다." <<His_ 의>> 눈이 천천히 휘둥그레진다. "잠깐. 제기랄, 베일리의 종이를 밖에 두고 왔어." <<He_ 가>> 한숨을 쉰다. "됐어, 종이는 <<nnpc_he_ "가" "Bailey">> 알아서 구하겠지 뭐."
 
 	You get up and leave <<him>> to bask in the afterglow.<<greb>><<reb 1>>
 
